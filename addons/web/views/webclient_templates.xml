@@ -101,12 +101,14 @@
         <t t-out="final_message % (odoo_logo, _message and ('- ' + _message) or '')"/>
     </template>
     <template id="brand_promotion" name="Brand Promotion">
-        <div class="o_brand_promotion">
-            <t t-call="web.brand_promotion_message">
-                <t t-set="_message"></t>
-                <t t-set="_utm_medium" t-valuef="portal"/>
-            </t>
-        </div>
+<!--        salmankhan comment this-->
+<!--        <div class="o_brand_promotion">-->
+<!--            <t t-call="web.brand_promotion_message">-->
+<!--                <t t-set="_message"></t>-->
+<!--                <t t-set="_utm_medium" t-valuef="portal"/>-->
+<!--            </t>-->
+<!--        </div>-->
+<!--        salmankhan end-->
     </template>
 
     <template id="web.login_layout" name="Login Layout">
